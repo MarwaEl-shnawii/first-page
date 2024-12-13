@@ -1,0 +1,126 @@
+*{
+    margin: 0;   
+}
+
+.clr{
+    clear:both;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size:23px;
+}
+.navbar ul{
+    float: right;
+    list-style:none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding:20px
+}
+
+#home{
+    background-image: url(./Images/back1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+#home .caption{
+    text-align: center;
+    padding-top: 80px; ;
+    color:brown
+}
+#home .caption h1{
+    font-style: italic;
+    font-size: 60px;
+}
+#home .caption img {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+}
+#home .caption p {
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+#home .caption .btn1 , #home .caption .btn2{
+    padding: 15px 6px;
+    border-radius: 10px;
+    border: none;
+    background-color:sienna;
+    color:#fff;
+    font-size: 17px;
+    
+
+}
+#about{
+    height: 100vh;
+}
+#about .about-img{
+    width: 40%;
+    float: left;
+}
+#about .about-img img{
+    width: 100%;
+    padding-top: 80px;
+}
+#about .about-inf{
+    width: 60%;
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+}
+#about .about-inf h2{
+    font-size: 40px;
+}
+#about .about-inf p{
+    padding: 20px;
+    line-height: 30px;
+}
+#about .about-inf button {
+    padding: 15px 20px;
+    background-color:transparent ;
+    border: 3px solid #000;
+    border-radius: 10px;
+
+}
+.light-box{
+    background-image: url(./Images/back2.png);
+    height: 600px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#meals{
+    padding-top:60px;
+}
+#meals .meal{
+    width: 25%;
+    float:left;
+    text-align: center;
+    
+}
+#meals .meal img{
+    width:200px;
+    height: 200px;
+    border-radius: 70px;
+}
+#meals .meal p{
+    padding-inline: 25px;
+    padding-block: 15px;
+}
+#meals .meal h3{
+    font-size: 20px;
+}
+#meals .btn-more{
+    text-align: center;
+}
+#meals .more{
+    width: 100px;
+    margin: auto;
+}
+#meals .more button{
+    padding: 15px;
+    margin-top: 50px ;
+    background-color: tan;
+}
+
